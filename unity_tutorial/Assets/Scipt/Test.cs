@@ -13,8 +13,8 @@ public class Test : MonoBehaviour
 
     // Update is called once per frame
 
-    [SerializeField]
-    private GameObject go_camera;
+   //[SerializeField]
+   //private GameObject go_camera;
 
     void Update()
     {
@@ -32,7 +32,7 @@ public class Test : MonoBehaviour
         //    this.transform.LookAt(go_camera.transform.position); //카메라가 나를 바라보게 한다.
         //
         //} 
-        transform.RotateAround(go_camera.transform.position, Vector3.up, 100 * Time.deltaTime);
+       // transform.RotateAround(go_camera.transform.position, Vector3.up, 100 * Time.deltaTime);
 
     }
 }
